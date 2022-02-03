@@ -1,0 +1,9 @@
+plugin: netbox.netbox.nb_inventory
+api_endpoint: http://192.168.0.56:8000
+token: 0123456789abcdef0123456789abcdef01234567
+validate_certs: false
+config_context: false
+group_by:
+  - device_roles
+query_filters: []
+flatten_custom_fields: true
